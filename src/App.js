@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+// v3 auth api key =  9e7f4bc908f73460c45bb162672073cf
+// https://api.themoviedb.org/3/movie/550?api_key=9e7f4bc908f73460c45bb162672073cf
+
+// token v4 = eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5ZTdmNGJjOTA4ZjczNDYwYzQ1YmIxNjI2NzIwNzNjZiIsInN1YiI6IjYwMjg5NDFlMTk0MTg2MDAzZjhkZDdlOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ydZsny-H5qW5VvMQhsEwC2yx9auCaeXaqPXh6aLPyIc
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      Hola mundo
     </div>
   );
 }
