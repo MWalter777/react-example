@@ -7,7 +7,7 @@
 function App() {
   return (
     <div>
-      Hola mundo
+      Probando si se actualiza automaticamente al hacer push al master
     </div>
   );
 }
