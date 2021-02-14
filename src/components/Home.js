@@ -5,7 +5,7 @@ import Banner from "./Banner";
 const Home = () =>{
     return (
         <div>
-            <div>Nav</div>
+            <div>Navbar</div>
             <Banner />
             <Row title="NETFLIX ORIGINAL" isLarge={true} request={request.fetchNetflixOriginal} />
             <Row title="Trending now" request={request.fetchTrending}/>
