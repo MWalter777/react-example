@@ -21,14 +21,9 @@ const Row = ({title, request, isLarge}) =>{
                 setMovies(results.data.results);
             }
         });
-        return () => {
-            // when we clean effect
-            console.log("Cleaning row");
-        }
     }, [request]) // if [], run once when the Rows load and don't run again 
 
-    console.log(movies);
-
+    
     return (
         <Wrapper>
             <h2>{title}</h2>
